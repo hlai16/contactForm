@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+h1,
+p, 
+input,
+textarea,
+button {
+    font-family: 'Hachi Maru Pop', cursive;
+    color: brown;
+}
+
+body {
+    background-color: #eeffee;
+}
+
+form {
+    position: relative;
+    padding: 5rem;
+    margin: 5rem;
+}
+
+.input {
+    width: 100%;
+    top: 5%;
+    left: 35%;
+}
+
+
+
+input,
+textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    width: 500px;
+    padding: .5%;
+    margin: 1.5%;
+}
+
+input:hover,
+input:focus-within,
+textarea:hover,
+textarea:focus-within {
+    border-color: rgb(247, 125, 49);
+}
+
+button {
+    border-radius: 5%;
+    padding: 1%;
+    margin: 2%;
+    background-color: rgb(247, 125, 49);
+    color: #fff;
+}
+
+button:hover,
+button:focus-within {
+    background-color: #fff;
+    color: rgb(241, 95, 4);
+    font-weight: bold;
+    border: 2px ridge rgb(247, 125, 49);
+}
